@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body class="box-border m-0 p-0">
+<div class="h-[95vh] bg-black">
+    <nav class="bg-black border-b-2 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-white text-xl font-bold"><i class="fa-solid fa-broom "></i> Spotless</a>
+            <button id="menu-btn" class="md:hidden text-white text-2xl">☰</button>
+            <ul id="menu" class="hidden md:flex space-x-6 text-white">
+                <li><a href="#" class="hover:underline">Plans</a></li>
+                <li><a href="#service" class="hover:underline">Services</a></li>
+                <li><a href="/about.html" class="hover:underline">About</a></li>
+                <li><a href="/log-in.html" class="hover:underline">Log in / Sign up  <i class="fa-solid fa-circle-user text-xl"></i></a></li>
+                <li  class="   border-2 border-white rounded-2xl p-1 hover:bg-black hover:text-white hover:transition hover:ease-in-out hover:animate-none animate-pulse sm:block"><a href="#booking">Book Now</a></li>
+
+            </ul>
+        </div>
+        <ul id="mobile-menu" class="hidden md:hidden  flex-col space-y-4 p-4 text-white bg-gray-500">
+            <li><a href="#" class="hover:underline">Plans</a></li>
+            <li><a href="#service" class="hover:underline">Services</a></li>
+            <li><a href="about.html" class="hover:underline">About</a></li>
+            <li><a href="/log-in.html" class="hover:underline">Log in / Sign up  <i class="fa-solid fa-circle-user text-xl"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- END -->
+        
+       
+       <!-- HEOR  -->
+<div class="flex mx-20 my-28 overflow-hidden">
+    <div class="h-96 w-1/2">  
+        <p class="text-white font-extrabold text-xl sm:text-2xl">Remarkably Cleaner.Amazingly Simpler.</p>
+        <p class="text-white  text-sm mt-4 sm:text-xl">We provide the best cleaning services in town. Our team of expert cleaners will
+            
+            Providing spotless cleaning services for busy people since 2035. Always on time, always smiling.</p>
+            <div class="mt-8 animate-bounce hover:animate-none  w-28">
+
+                <a href="#booking" class="border-2 border-white rounded-2xl p-2 text-white  hover:bg-black" >Book Now</a>
+
+            </div>
+       </div>
+      
+       
+
+   
+        <div class="w-fit h-fit absolute top-72 left-2/3 sm:left-2/3 ">   
+             <img src="/images/broom.jpg" alt="" class=" h-24 w-fit bg-blend-color invert sm:h-48"></div>
+        </div>
+
+</div>
+
+<!-- END !-->
+
+<!-- intro -->
+      <div class=" bg-white shadow-2xl" id="service">
+       <p class="text-4xl text-center pt-20 font-bold">For Anything You Need</p> 
+       <p class="text-2xl text-center mt-4 pb-8 font-bold">Our stellar services</p>
+
+            <!-- Advertise -->
+       <div class="flex flex-wrap justify-center ">
+
+        <div class="m-10 overflow-hidden  rounded-xl relative sm:m-5">
+
+            <img class="h-96 sm:h-60  hover:scale-105 transition-all duration-500 cursor-pointer" src="/images/deep-clean.jpg" alt="deep clean" >
+
+<span class="absolute bottom-8 left-16 text-2xl font-serif text-gray-700">Deep Clean</span>
+
+        </div>
+
+        <div class="m-10 overflow-hidden rounded-xl relative sm:m-5">
+
+            <img class="h-96 sm:h-60  hover:scale-105 transition-all duration-500 cursor-pointer" src="/images/laundry.jpg" alt="" >
+            <span class="absolute bottom-8 left-16 text-2xl font-serif text-gray-700">Laundry</span>
+
+        </div>
+
+        <div class="m-10 overflow-hidden rounded-xl relative sm:m-5">
+
+            <img class="h-96 sm:h-60 hover:scale-105 transition-all duration-500 cursor-pointer" src="/images/moving-out.jpeg" alt="">
+            <span class="absolute bottom-8 left-16 text-2xl font-serif text-gray-700">Move In/Move Out</span>
+
+        </div>
+
+    </div>
+    <div class="text-center">
+        <button class="text-xl px-10 py-3 rounded-3xl border-2 border-black bg-white hover:bg-black hover:text-white hover:border-2 hover:border-white hover:scale-105 transition-all duration-500 cursor-pointer mb-6" type="button">See All Services</button>
+    </div>
+    </div>
+
+    <!-- END -->
+
+    <div class="bg-white mt-6 w-full m-auto shadow-2xl" id="booking">
+        <p class="text-4xl font-bold text-center pt-20">Get a Free Estimate</p>
+            <p class="text-2xl font-bold text-center mt-4 pb-8">contac us</p>
+            <div class="">
+        <form action="" method="" class="grid grid-cols-1 md:grid-cols-2 gap-2">
+            
+            <label for="first-name" class="text-lg text-black m-6">First Name</label>
+            <input id="first-name" type="text" class=" flex  p-3 border-black border-2 rounded-xl" required>
+            <label for="last-name" class="text-lg text-black m-6">Last Name</label>
+            <input id="last-name" type="text" class=" flex p-3 border-black border-2 rounded-xl" required>
+            <label for="phone-no" class="text-lg text-black m-6">Phone Number</label>
+            <input id="phone-no" type="number" class=" flex p-3 border-black border-2 rounded-xl" required>
+            <label for="E-mail" class="text-lg text-black m-6">E-Mail</label>
+            <input id="E-mail" type="email" class=" flex p-3 border-black border-2 rounded-xl" required>
+            <label for="Address" class="text-lg text-black m-6">Address</label>
+            <input id="Address" type="text" class=" flex p-3 border-black border-2 rounded-xl" required>
+            <label for="city" class="text-lg text-black m-6">City</label>
+            <input id="city" type="text" class=" flex p-3 border-black border-2 rounded-xl" required>
+            <label for="rooms" class="text-lg text-black m-6">Number of Rooms</label>
+            <input id="rooms" type="number" class=" flex p-3 border-black border-2 rounded-xl" required>
+            <label for="first-name" class="text-lg text-black m-6">Chose your service</label>
+            <select id="" name="" class="flex p-3 border-black border-2 rounded-xl" required>
+                <option value="volvo"></option>
+                <option value="saab">Move in Move out</option>
+                <option value="saab">Laundry</option>
+                <option value="mercedes">Deep Clean</option>
+                
+              </select>
+              <div class="flex justify-center sm:ml-96 ">
+            <button class=" mt-8 text-xl py-3 px-10 rounded-3xl text-black bg-white hover:bg-black hover:text-white
+             border-2 border-black  transition-all duration-500 cursor-pointer mb-6" type="submit" 
+             onclick="alert('Thank you for your submission')">Submit</button> 
+                </div>
+           
+        </form>
+
+
+        </div>
+    
+       
+    </div>
+       
+    <!-- END -->
+     <div class="bg-white mt-6 w-full m-auto ">
+        <p class="text-4xl text-center pt-20 font-bold">Testimonials</p>
+            <p class="text-2xl text-center mt-4 pb-8 font-bold">What our satisfied customers say</p>
+            <div class="flex flex-wrap justify-around gap-6 pb-6">
+                
+                <div class="bg-white w-80 h-80 rounded-3xl border-2 border-black ">
+                    <img src="https://www.stryx.com/cdn/shop/articles/man-looking-attractive.jpg?v=1666662774" alt="" class="rounded-full w-1/3 h-1/3 mx-auto mt-8">
+                    <p class="text-xl text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    <p class="text-xl text-center mt-4 pb-8 font-bold ">John Doe</p>
+                </div>
+                <div class="bg-white w-80 h-80 rounded-3xl border-2 border-black">
+                    <img src="https://www.stryx.com/cdn/shop/articles/man-looking-attractive.jpg?v=1666662774" alt="" class="rounded-full w-1/3 h-1/3 mx-auto mt-8">
+                    <p class="text-xl text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    <p class="text-xl text-center mt-4 pb-8 font-bold">Jane Doe</p>
+                </div>
+                <div class="bg-white w-80 h-80 rounded-3xl border-2 border-black">               
+                    <img src="https://www.stryx.com/cdn/shop/articles/man-looking-attractive.jpg?v=1666662774" alt="" class="rounded-full w-1/3 h-1/3 mx-auto mt-8">
+                    <p class="text-xl text-center mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                    <p class="text-xl text-center mt-4 pb-8 font-bold">Jane Doe</p>
+                    </div>
+                    </div>
+     </div>
+     <!-- END -->
+      <!-- footer -->
+      <footer class="bg-[#343a40] text-white py-6">
+        <a href="#" class="text-2xl font-bold p-8  "><i class="fa-solid fa-broom"></i> Spotless</a>
+
+        <div class="text-sm container mx-auto flex justify-around items-center">
+          <!-- <p class="text-sm">Copyright © 2022 My Website. All rights reserved.</p> -->
+           
+          <ul class="">
+            <li class="m-4 mx-8 font-bold">Company</li>
+            <li class="mx-8"><a href="#" class="hover:text-white">About Us</a></li>
+            <li class="mx-8"><a href="#" class="hover:text-white">Terms & Conditions</a></li>
+            <li class="mx-8"><a href="#" class="hover:text-white">Privacy Policy</a></li>
+            <li class="mx-8"><a href="#" class="hover:text-white">Anti-discrimination policy</a></li>
+            <li class="mx-8"><a href="#" class="hover:text-white">Spotless impact</a></li>
+            <li class="mx-8"><a href="#" class="hover:text-white">Careers</a></li>
+
+          </ul>
+
+          <ul class="">
+            <li class="m-4 mx-8 font-bold">For Customers</li>
+            <li class="mx-8"><a href="#" class="hover:text-white">Spotless reviews</a></li>
+            <li class="mx-8"><a href="#" class="hover:text-white">categories near you</a></li>
+            <li class="mx-8"><a href="#" class="hover:text-white">blog</a></li>
+            <li class="mx-8"><a href="#" class="hover:text-white">Contact us</a></li>
+
+          </ul>
+
+          <ul class="">
+            <li class="m-4 mx-8 font-bold">Social links</li>
+            <li class="mx-8">
+            
+                <a href="https://threads.net/@spotless.user" target="_blank"><i class="fa-brands fa-threads p-2 bg-slate-700 rounded-2xl m-2"></i></a>
+                <a href=""  target="_blank"><i class="fa-brands fa-facebook p-2 bg-slate-700 rounded-2xl m-2"></i></a>
+                <a href=""  target="_blank"><i class="fa-brands fa-instagram p-2 bg-slate-700 rounded-2xl m-2"></i></a>
+                <a href=""  target="_blank"><i class="fa-brands fa-linkedin p-2 bg-slate-700 rounded-2xl m-2"></i></a>
+                
+            </li>
+            <li class="mx-8">
+                <a href=""  target="_blank"><i class="fa-brands fa-google-play p-2 bg-slate-700 rounded-2xl m-2"></i></a>
+                <a href=""  target="_blank"><i class="fa-brands fa-app-store-ios p-2 bg-slate-700 rounded-2xl m-2"></i></a>
+            </li>
+            
+          </ul>
+
+         <div>
+            <img src="/images/category_7f741d10.png" alt="" class="h-10 mb-5 hidden sm:block">
+            <img src="/images/category_7f907eb0.png" alt="" class="h-10 hidden sm:block">
+         </div>
+        </div>
+      </footer>
+      <!-- END -->
+    
+
+    
+   <script src="/script.js"></script>
+</body>
+
+</html>
